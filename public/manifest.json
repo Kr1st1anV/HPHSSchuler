@@ -1,0 +1,17 @@
+{
+    "name": "HPHS Schuler App",
+    "short_name": "HPHS Schuler",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "description": "Tutorial of Laravel Package",
+    "display": "fullscreen",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/images/logo.svg",
+            "sizes": "512x512",
+            "type": "image/svg",
+            "purpose": "any maskable"
+        }
+    ]
+}

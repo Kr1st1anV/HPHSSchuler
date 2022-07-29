@@ -27,7 +27,7 @@ class RegisterController extends Controller
 
         auth()->login($user);
 
-        $user->notify(new WelcomeNotifications);
+        //$user->notify(new WelcomeNotifications);
 
         return redirect('/')->with('success', 'Your account has been created.');;
     }

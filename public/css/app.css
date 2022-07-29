@@ -639,8 +639,8 @@ section{
       font-size: 10vw;
    }
    .calendar iframe{
-      width: 500px;
-      height: 600px;
+      width: 485px;
+      height: 550px;
    }
 
 }
@@ -681,7 +681,7 @@ section{
    }
 
    .calendar iframe{
-      width: 400px;
+      width: 385px;
       height: 450px;
    }
 }

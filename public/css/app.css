@@ -603,6 +603,10 @@ section{
    color: var(--main-color);
 }
 
+.dashboard{
+   all: unset;
+}
+
 
 
 

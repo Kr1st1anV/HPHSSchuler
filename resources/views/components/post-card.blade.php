@@ -2,6 +2,7 @@
 
 <div class="box">
     <div class="image">
+        <!--/Users/kristianv/HPHSSchulerApp/storage/app/public-->
     <img src="{{ asset('storage/' . $post->thumbnail) }}" alt="image">
     </div>
     <div class="content">

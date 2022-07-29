@@ -59,7 +59,7 @@
                                 <td class="px-9 py-4 whitespace-nowrap">
                                 <div class="flex items-center">
                                         <div class="text-3xl font-medium text-gray 900">
-                                            <a href="/posts/{{$post->slug}}">
+                                            <a href="/posts">
                                             {{$post->title}}
                                             </a>
                                         </div>

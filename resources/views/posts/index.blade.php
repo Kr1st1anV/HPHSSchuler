@@ -10,7 +10,7 @@
             <p class="heading-title">No posts yet, please check back later.</p>
         @endif
     </div>
-    @if ($posts->count())
+    @if ($posts->count() > 6)
         <div class="load-more"><span class="btn">Load More</span></div>
     @endif
 </section>

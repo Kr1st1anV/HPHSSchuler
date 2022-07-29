@@ -11,6 +11,8 @@
             @else 
                 <p class="text-center">No posts yet. Please check back later.</p>
             @endif
+      </div>
+      <div class="load-more"><span class="btn">Load More</span></div>
       <!--<div class="box">
         <div class="image">
           <img src="images/Six_Flags.jpeg">
@@ -144,10 +146,6 @@ Diana Martinez</p>
         </div>
       </div>
       -->
-    </div>
-  @if ($posts->count() > 3)
-    <div class="load-more"><span class="btn">Load More</span></div>
-  @endif
     
   </section>
 

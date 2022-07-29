@@ -16,12 +16,11 @@ class PostController extends Controller
 {
     public function index() {
         Artisan::call('storage:link');
-        echo "good";
-        /*return view('posts.index', [
+        return view('posts.index', [
             'posts' => Post::latest()->filter(
                 request(['search', 'author'])
                 )->paginate(0)->withQueryString(),
-        ]);*/
+        ]);
         }
 
     public function show(Post $post) {

@@ -30,10 +30,6 @@ class AdminPostController extends Controller
 
         $users = User::all();
 
-        foreach ($users as $user) {
-            $user->notify(new PostNotifications);
-        }
-
         return redirect('/posts');
     }
     

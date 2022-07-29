@@ -145,8 +145,8 @@ Diana Martinez</p>
       </div>
       -->
     </div>
-  @if ($posts->count() > 6)
-  <div class="load-more"><span class="btn">Load More</span></div>
+  @if ($posts->count() > 3)
+    <div class="load-more"><span class="btn">Load More</span></div>
   @endif
     
   </section>

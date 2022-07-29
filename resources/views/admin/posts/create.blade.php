@@ -2,6 +2,7 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/admin/posts" method="POST" autocomplete="off" enctype="multipart/form-data">
+        <h3>New Post</h3>
         @csrf
         <x-form.input name="title"/>
         <x-form.input name="slug"/>

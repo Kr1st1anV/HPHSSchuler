@@ -51,4 +51,4 @@ let loadMoreBtn = document.querySelector('.packages .load-more .btn');
    };
    };
 };
-}
+};

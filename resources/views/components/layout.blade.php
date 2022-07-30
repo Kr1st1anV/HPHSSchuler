@@ -28,7 +28,7 @@
 
 <section class="header">
 
-   <!--<a href="/" class="schuler-logo">--><img src="/images/logo.svg" alt="Schuler Logo"><!--</a>-->
+   <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
    <nav class="navbar">
       <a href="/">Home</a>
       <a href="/calendar">Calendar</a>

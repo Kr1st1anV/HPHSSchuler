@@ -8,9 +8,9 @@
     "theme_color": "#ffffff",
     "icons": [
         {
-            "src": "/images/logo.svg",
+            "src": "/images/schuler.png",
             "sizes": "512x512",
-            "type": "image/svg",
+            "type": "image/png",
             "purpose": "any maskable"
         }
     ]

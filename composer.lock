@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e69b29ffb22035daafcbf19ad046c774",
+    "content-hash": "e18d90d2725f16b05ddd0ad86a4e238a",
     "packages": [
         {
             "name": "brick/math",
@@ -583,24 +583,24 @@
         },
         {
             "name": "graham-campbell/result-type",
-            "version": "v1.0.4",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "0690bde05318336c7221785f2a932467f98b64ca"
+                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/0690bde05318336c7221785f2a932467f98b64ca",
-                "reference": "0690bde05318336c7221785f2a932467f98b64ca",
+                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/a878d45c1914464426dc94da61c9e1d36ae262a8",
+                "reference": "a878d45c1914464426dc94da61c9e1d36ae262a8",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^8.0",
-                "phpoption/phpoption": "^1.8"
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.5.8"
+                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
             },
             "type": "library",
             "autoload": {
@@ -629,7 +629,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.0.4"
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.0"
             },
             "funding": [
                 {
@@ -641,7 +641,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-21T21:41:47+00:00"
+            "time": "2022-07-30T15:56:11+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -965,63 +965,6 @@
                 }
             ],
             "time": "2022-06-20T21:43:11+00:00"
-        },
-        {
-            "name": "ladumor/laravel-pwa",
-            "version": "v0.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/shailesh-ladumor/laravel-pwa.git",
-                "reference": "8256db4b88554e69d8c0691ea8880efe29845411"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/shailesh-ladumor/laravel-pwa/zipball/8256db4b88554e69d8c0691ea8880efe29845411",
-                "reference": "8256db4b88554e69d8c0691ea8880efe29845411",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": ">=5.4",
-                "php": ">=5.6"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "\\Ladumor\\LaravelPwa\\PWAServiceProvider"
-                    ],
-                    "aliases": {
-                        "LaravelPwa": "Ladumor\\LaravelPwa\\LaravelPwa"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ladumor\\LaravelPwa\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Shailesh Ladumor",
-                    "email": "shaileshmladumor@gmail.com"
-                }
-            ],
-            "description": "this package used for the make pwa website.",
-            "keywords": [
-                "laravel",
-                "laravel-pwa",
-                "php",
-                "pwa-laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/shailesh-ladumor/laravel-pwa/issues",
-                "source": "https://github.com/shailesh-ladumor/laravel-pwa/tree/v0.0.3"
-            },
-            "time": "2022-04-24T06:31:02+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -2525,29 +2468,33 @@
         },
         {
             "name": "phpoption/phpoption",
-            "version": "1.8.1",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/php-option.git",
-                "reference": "eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15"
+                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15",
-                "reference": "eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15",
+                "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
+                "reference": "dc5ff11e274a90cc1c743f66c9ad700ce50db9ab",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^8.0"
+                "php": "^7.2.5 || ^8.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.5.8"
+                "bamarni/composer-bin-plugin": "^1.8",
+                "phpunit/phpunit": "^8.5.28 || ^9.5.21"
             },
             "type": "library",
             "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": true
+                },
                 "branch-alias": {
-                    "dev-master": "1.8-dev"
+                    "dev-master": "1.9-dev"
                 }
             },
             "autoload": {
@@ -2580,7 +2527,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/php-option/issues",
-                "source": "https://github.com/schmittjoh/php-option/tree/1.8.1"
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.0"
             },
             "funding": [
                 {
@@ -2592,7 +2539,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-12-04T23:24:31+00:00"
+            "time": "2022-07-30T15:51:26+00:00"
         },
         {
             "name": "psr/container",
@@ -3250,6 +3197,56 @@
                 }
             ],
             "time": "2022-03-27T21:42:02+00:00"
+        },
+        {
+            "name": "silviolleite/laravelpwa",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silviolleite/laravel-pwa.git",
+                "reference": "5f7135d2ee870af01793c9fdf6b1b932b546e20e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silviolleite/laravel-pwa/zipball/5f7135d2ee870af01793c9fdf6b1b932b546e20e",
+                "reference": "5f7135d2ee870af01793c9fdf6b1b932b546e20e",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelPWA\\Providers\\LaravelPWAServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelPWA\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Silvio Luis Leite",
+                    "email": "silviolleite@gmail.com"
+                }
+            ],
+            "description": "Looks like an app, feels like an app, but NOT an app.",
+            "keywords": [
+                "laravel",
+                "php",
+                "progressive web apps",
+                "pwa"
+            ],
+            "support": {
+                "issues": "https://github.com/silviolleite/laravel-pwa/issues",
+                "source": "https://github.com/silviolleite/laravel-pwa/tree/2.0.3"
+            },
+            "time": "2020-08-20T12:19:16+00:00"
         },
         {
             "name": "stella-maris/clock",

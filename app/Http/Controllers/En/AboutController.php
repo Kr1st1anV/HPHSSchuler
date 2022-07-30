@@ -9,7 +9,7 @@ class AboutController extends Controller
 {
     public function index()
     {
-        return view('main.about');
+        return view('main.about-us');
     }
 
     public function calendar()

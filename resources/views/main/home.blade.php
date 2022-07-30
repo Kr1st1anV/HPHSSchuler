@@ -11,9 +11,9 @@
    </div>
 
    <div class="content">
-      <h3>About Us</h3>
+      <h3>What is Schuler?</h3>
       <p>Schuler partners with Scholars and their families to help Scholars identify, pursue and achieve their academic and professional aspirations. During the high school years, Scholars focus on activities to propel them on their academic journey. After high school, Schuler provides support that helps Scholars flourish in college and beyond. These resources–which are all free to Scholars and their families enable Scholars to create, and follow, a customized roadmap to succeed at highly selective colleges and universities.</p>
-      <a href="/about" class="btn">Read More</a>
+      <a href="/about-us" class="btn">About Us</a>
    </div>
 
 </section>

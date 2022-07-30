@@ -28,19 +28,18 @@
 
 <section class="header">
 
-   <a href="/" class="logo"><img src="/images/logo.svg"></a>
+   <!--<a href="/" class="schuler-logo">--><img src="/images/logo.svg" alt="Schuler Logo"><!--</a>-->
    <nav class="navbar">
       <a href="/">Home</a>
       <a href="/calendar">Calendar</a>
-      <a href="/about">About Us</a>
+      <a href="/about-us">About Us</a>
       <a href="/posts">Posts</a>
       @auth
         @admin
-        <a href="/admin/posts">Dashboard</a>
-        <a href="/admin/posts/create">New Post<a>
+          <a href="/admin/posts">Dashboard</a>
+          <a href="/admin/posts/create">New Post<a>
         @endadmin
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
-
         <form id="logout-form" action="/logout" method="post" class="hidden">
             @csrf 
         </form>
@@ -48,7 +47,6 @@
       <a href="/register">Register</a>
       <a href="/login">Log In</a>
       @endauth
-      <!-- <a href="Chatroom/index.php" target="_blank">Chat room</a>' -->
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -61,7 +59,7 @@
 <section class="footer">
     <div class="box-container">
       <div class="box">
-        <h3>Quick Links</h3>
+        <h3>Navigate To</h3>
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
         <a href="/about"><i class="fas fa-angle-right"></i> About Us </a>
@@ -76,18 +74,18 @@
       <a href="/login"><i class="fas fa-angle-right"></i> Log In </a>
       @endauth
       </div>
-      <div class="box">
+      <!--<div class="box">
         <h3>Extra Links</h3>
         <a href="#"><i class="fas fa-angle-right"></i> Ask Questions </a>
         <a href="#"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="#"><i class="fas fa-angle-right"></i> Privacy Policy </a>
         <a href="#"><i class="fas fa-angle-right"></i> Terms of User </a>
-      </div>
+      </div>-->
       <div class="box">
         <h3>Contact Info</h3>
-        <a href="#"><i class="fas fa-phone"></i> +1 (224) 765-2000 </a>
-        <a href="#"><i class="fas fa-phone"></i> +1 (817) 909-0215 </a>
-        <a href="#"><i class="fas fa-envelope"></i> cheryls@schulerprogram.org </a>
+        <a href="tel:224-765-2000"><i class="fas fa-phone"></i> +1 (224) 765-2000 </a>
+        <a href="tel:817-909-0215"><i class="fas fa-phone"></i> +1 (817) 909-0215 </a>
+        <a href="mailto:cheryls@schulerprogram.org"><i class="fas fa-envelope"></i> cheryls@schulerprogram.org </a>
         <a href="https://www.google.com/maps/place/Highland+Park+High+School/@42.1926722,-87.8035443,17z/data=!3m2!4b1!5s0x880fc1b8e92f2a23:0xd72b4ad49aaa2cb7!4m5!3m4!1s0x880fc1b931863511:0x200dc0454edb946!8m2!3d42.1926682!4d-87.8013556"><i class="fas fa-map"></i> 433 Vine Ave, Highland Park, IL </a>
       </div>
       <div class="box">

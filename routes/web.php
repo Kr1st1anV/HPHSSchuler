@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['namespace' => 'En'], function(){
     Route::get('/',[HomeController::class, 'index'])->name('home');
 
-    Route::get('/about',[AboutController::class, 'index']);
+    Route::get('/about-us',[AboutController::class, 'index']);
 
     Route::get('/calendar',[AboutController::class, 'calendar']);
 

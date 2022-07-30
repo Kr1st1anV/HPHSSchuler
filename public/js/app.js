@@ -1,3 +1,4 @@
+window.onload = function () {
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
@@ -48,5 +49,6 @@ let loadMoreBtn = document.querySelector('.packages .load-more .btn');
       }
       boxes[i].style.display = 'inline-block';
    };
-   }
+   };
+};
 }

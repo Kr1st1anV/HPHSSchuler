@@ -36,6 +36,14 @@ return [
             '192x192' => [
                 'path' => '/images/icons/icon-192x192.png',
                 'purpose' => 'any'
+            ],
+            '384x384' => [
+                'path' => '/images/icons/icon-384x384.png',
+                'purpose' => 'any'
+            ],
+            '512x512' => [
+                'path' => '/images/icons/icon-512x512.png',
+                'purpose' => 'any'
             ],*/
             '72x72' => [
                 'path' => '/images/icons/schuler.png',
@@ -62,11 +70,11 @@ return [
                 'purpose' => 'any'
             ],
             '384x384' => [
-                'path' => '/images/icons/icon-384x384.png',
+                'path' => '/images/icons/schuler.png',
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/icon-512x512.png',
+                'path' => '/images/icons/schuler.png',
                 'purpose' => 'any'
             ],
         ],

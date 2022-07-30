@@ -38,15 +38,14 @@ var swiper = new Swiper(".reviews-slider", {
 });
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
-let currentItem = 3;
+let currentItem = 6;
 
 loadMoreBtn.onclick = () =>{
-   let boxes = [...document.querySelectorAll('.packages .box-container .box')];
-   for (var i = currentItem; i < currentItem + 3; i++){
+   let boxes = [...document.querySelectorAll('.packages .box-container .box')]; 
+   for (var i = currentItem; i <= currentItem + 3; i++){
+      if(i >= boxes.length){
+         loadMoreBtn.style.display = 'none';
+      }
       boxes[i].style.display = 'inline-block';
    };
-   currentItem += 3;
-   if(currentItem >= boxes.length){
-      loadMoreBtn.style.display = 'none';
-   }
 }

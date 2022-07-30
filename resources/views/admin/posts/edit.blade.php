@@ -2,6 +2,7 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/admin/posts/{{ $post->id }}" method="POST" enctype="multipart/form-data">
+        <h3>Edit Post</h3>
         @csrf
         @method('PATCH')
 

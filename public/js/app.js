@@ -38,8 +38,8 @@ var swiper = new Swiper(".reviews-slider", {
 });
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
+if (loadMoreBtn !== null) {
 let currentItem = 6;
-
 loadMoreBtn.onclick = () =>{
    let boxes = [...document.querySelectorAll('.packages .box-container .box')]; 
    for (var i = currentItem; i <= currentItem + 3; i++){
@@ -48,4 +48,5 @@ loadMoreBtn.onclick = () =>{
       }
       boxes[i].style.display = 'inline-block';
    };
+}
 }

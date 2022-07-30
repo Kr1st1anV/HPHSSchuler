@@ -3,8 +3,8 @@
 return [
     'name' => 'HPHS Schuler App',
     'manifest' => [
-        'name' => env('APP_NAME', 'My PWA App'),
-        'short_name' => 'Schuler App',
+        'name' => env('APP_NAME', 'HPHS Schuler PWA'),
+        'short_name' => 'HPHS Schuler',
         'start_url' => '/',
         'background_color' => '#ffffff',
         'theme_color' => '#ffffff',
@@ -96,7 +96,7 @@ return [
                 'description' => 'Shortcut Link 1 Description',
                 'url' => '/shortcutlink1',
                 'icons' => [
-                    "src" => "/images/icons/icon-72x72.png",
+                    "src" => "/images/icons/schuler.png",
                     "purpose" => "any"
                 ]
             ],

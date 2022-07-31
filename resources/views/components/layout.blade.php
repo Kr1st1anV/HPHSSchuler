@@ -22,6 +22,7 @@
    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
    <meta name="description" content="The HPHS Schuler App will keep you updated on the latest news thorugh posts, notifications, and reminders on the calendar.">
+   <meta name="keywords" content="HPHS, Schuler, Schuler App, HPHS Schuler, HPHS Schuler App, Kristian Velazquez">
 
    @laravelPWA
 

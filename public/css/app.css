@@ -299,7 +299,7 @@ section{
 }
 
 .home-packages .box-container .box .content p{
-   font-size: 2rem;
+   font-size: 1.9rem;
    color:var(--light-black);
    line-height: 2;
    padding:1rem 0;
@@ -486,7 +486,7 @@ section{
 }
 
 .packages .box-container .box .content p{
-   font-size: 2rem;
+   font-size: 1.9rem;
    color:var(--light-black);
    line-height: 2;
    padding:1rem 0;

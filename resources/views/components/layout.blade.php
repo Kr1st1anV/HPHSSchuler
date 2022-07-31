@@ -39,21 +39,21 @@
       <a href="/about-us">About Us</a>
       <a href="/calendar">Calendar</a>
       <a href="/forms">Submit Forms</a>
-      <a href="/posts">Posts</a>
       <br class="header-section-2">
       <div class="logins">
+      <a href="/posts">Posts</a>
       @auth
+        @admin
+          <a href="/admin/posts/create">Create Post</a>
+          <a href="/admin/posts">Dashboard</a>
+        @endadmin
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
         <form id="logout-form" action="/logout" method="post" class="hidden">
             @csrf 
         </form>
-        @admin
-          <a href="/admin/posts">Dashboard</a>
-          <a href="/admin/posts/create">New Post</a>
-        @endadmin
       @else
-        <a href="/login">Log In</a>
         <a href="/register">Register</a>
+        <a href="/login">Log In</a>
       </div>
       @endauth
    </nav>

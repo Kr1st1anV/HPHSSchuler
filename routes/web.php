@@ -7,6 +7,13 @@ use App\Http\Controllers\En\PostCommentsController;
 use App\Http\Controllers\En\PostController;
 use App\Http\Controllers\En\RegisterController;
 use App\Http\Controllers\En\SessionsController;
+use App\Http\Controllers\Es\EsAboutController;
+use App\Http\Controllers\Es\EsAdminPostController;
+use App\Http\Controllers\Es\EsHomeController;
+use App\Http\Controllers\Es\EsPostCommentsController;
+use App\Http\Controllers\Es\EsPostController;
+use App\Http\Controllers\Es\EsRegisterController;
+use App\Http\Controllers\Es\EsSessionsController;
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -46,5 +53,36 @@ Route::group(['namespace' => 'En'], function(){
         Route::get('admin/posts/{post}/edit', [AdminPostController::class, 'edit']);
         Route::patch('admin/posts/{post}', [AdminPostController::class, 'update']);
         Route::delete('admin/posts/{post}', [AdminPostController::class, 'destroy']);
+    });
+});
+
+Route::group(['namespace' => 'Es'], function(){
+    Route::get('/es',[EsHomeController::class, 'index'])->name('home');
+
+    Route::get('/es/about-us',[EsAboutController::class, 'index']);
+
+    Route::get('/es/calendar',[EsAboutController::class, 'calendar']);
+
+    Route::get('/es/posts',[EsPostController::class, 'index']);
+
+    Route::get('/es/posts/{post:slug}',[PEsostController::class, 'show']);
+    Route::post('/es/posts/{post:slug}/comments', [EsPostCommentsController::class, 'store']);
+
+    Route::get('/es/register', [EsRegisterController::class, 'create'])->middleware('guest');
+    Route::post('/es/register', [EsRegisterController::class, 'store'])->middleware('guest');
+
+    Route::get('/es/login', [EsSessionsController::class, 'create'])->middleware('guest');
+    Route::post('/es/login', [EsSessionsController::class, 'store'])->middleware('guest');
+
+    Route::post('/es/logout', [EsSessionsController::class, 'destroy'])->middleware('auth');
+
+// Admin
+    Route::middleware('can:admin')->group(function (){
+        Route::get('/es/admin/posts', [EsAdminPostController::class, 'index']);
+        Route::post('/es/admin/posts', [EsAdminPostController::class, 'store']);
+        Route::get('/es/admin/posts/create', [EsAdminPostController::class, 'create']);
+        Route::get('/es/admin/posts/{post}/edit', [EsAdminPostController::class, 'edit']);
+        Route::patch('/es/admin/posts/{post}', [EsAdminPostController::class, 'update']);
+        Route::delete('/es/admin/posts/{post}', [EsAdminPostController::class, 'destroy']);
     });
 });

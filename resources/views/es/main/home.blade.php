@@ -1,4 +1,4 @@
-<x-layout :title="'Home'">
+<x-es.layout :title="'Home'">
    
 @include ('main._header')
 
@@ -40,4 +40,4 @@
 </section>
 
 </section>
-</x-layout>
+</x-es.layout>

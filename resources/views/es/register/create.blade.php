@@ -1,4 +1,4 @@
-<x-layout :stylesheet="'login'" :title="'Register'">
+<x-es.layout :stylesheet="'login'" :title="'Register'">
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/register" method="POST">
@@ -13,4 +13,4 @@
         <p>Already have an account? <a href="/login">Log In here</a></p>
     </form>
 </div>
-</x-layout>
+</x-es.layout>

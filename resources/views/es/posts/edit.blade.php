@@ -1,4 +1,4 @@
-<x-layout :stylesheet="'login'" :title="'Edit Post'">
+<x-es.layout :stylesheet="'login'" :title="'Edit Post'">
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/admin/posts/{{ $post->id }}" method="POST" enctype="multipart/form-data">
@@ -19,4 +19,4 @@
         <x-form.button>Update</x-form.button>
     </form>
 </div>
-</x-layout>
+</x-es.layout>

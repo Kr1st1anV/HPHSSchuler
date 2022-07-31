@@ -1,6 +1,6 @@
-<x-layout :title="'About Us'">
+<x-es.layout :title="'About Us'">
    
-<x-heading :file="'header-bg-1'">About us</x-heading>
+<x-es.heading :file="'header-bg-1'">About us</x-es.heading>
 
   <!-- About Section-->
 
@@ -101,4 +101,4 @@
 
   <!--Reviews Section Ends-->
 
-</x-layout>
+</x-es.layout>

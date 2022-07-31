@@ -1,4 +1,4 @@
-<x-layout :title="'Dashboard'" :stylesheet="'tailwind.min'">
+<x-es.layout :title="'Dashboard'" :stylesheet="'tailwind.min'">
 <x-heading :file="'header-bg-1'">Dashboard</x-heading>
 <section class="dashboard">
         <div class="flex flex-col">
@@ -43,4 +43,4 @@
             </div>
         </div>
 </section>
-</x-layout>
+</x-es.layout>

@@ -1,4 +1,4 @@
-<x-layout :stylesheet="'login'" :title="'New Post'">
+<x-es.layout :stylesheet="'login'" :title="'New Post'">
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/admin/posts" method="POST" autocomplete="off" enctype="multipart/form-data">
@@ -11,4 +11,4 @@
         <x-form.button>Publish</x-form.button>
     </form>
 </div>
-</x-layout>
+</x-es.layout>

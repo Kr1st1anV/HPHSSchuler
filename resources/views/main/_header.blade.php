@@ -20,7 +20,7 @@
             </div>
          </div>
 
-         <div class="swiper-slide slide" style="background:url(images/block3.png) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/Accomplish.jpeg) no-repeat">
             <div class="content">
                <span>HPHS Schuler Scholars</span>
                <h3>Learn, Dream, Achieve</h3>

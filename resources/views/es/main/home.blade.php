@@ -13,7 +13,7 @@
    <div class="content">
       <h3>Que es Schuler?</h3>
       <p>Schuler partners with Scholars and their families to help Scholars identify, pursue and achieve their academic and professional aspirations. During the high school years, Scholars focus on activities to propel them on their academic journey. After high school, Schuler provides support that helps Scholars flourish in college and beyond. These resources–which are all free to Scholars and their families enable Scholars to create, and follow, a customized roadmap to succeed at highly selective colleges and universities.</p>
-      <a href="/about-us" class="btn">About Us</a>
+      <a href="/es/about-us" class="btn">About Us</a>
    </div>
 
 </section>
@@ -35,7 +35,7 @@
         @endif
     </div>
     @if ($posts->count())
-      <div class="load-more"> <a href="/posts" class="btn">View More</a> </div>
+      <div class="load-more"> <a href="/es/posts" class="btn">View More</a> </div>
     @endif
 </section>
 

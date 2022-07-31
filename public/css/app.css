@@ -109,8 +109,11 @@ section{
 
 .header .navbar a{
    font-size: 2rem;
-   margin-left: 2rem;
+   margin-right: 3rem;
    color:var(--black);
+}
+.header .navbar .logins a{
+   float: right;
 }
 
 .header .navbar a:hover{

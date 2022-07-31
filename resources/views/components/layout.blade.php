@@ -31,9 +31,8 @@
   @csrf
 
 <section class="header">
-  <div style="position: overflow;">
+
    <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
-   </div>
    <nav class="navbar">
       <a href="/">Ver en Espanol</a>
       <a href="/">Home</a>
@@ -42,18 +41,20 @@
       <a href="/forms">Submit Forms</a>
       <a href="/posts">Posts</a>
       <br>
+      <div class="logins">
       @auth
-        @admin
-          <a href="/admin/posts">Dashboard</a>
-          <a href="/admin/posts/create">New Post</a>
-        @endadmin
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
         <form id="logout-form" action="/logout" method="post" class="hidden">
             @csrf 
         </form>
+        @admin
+          <a href="/admin/posts">Dashboard</a>
+          <a href="/admin/posts/create">New Post</a>
+        @endadmin
       @else
-      <a href="/register">Register</a>
-      <a href="/login">Log In</a>
+        <a href="/register">Register</a>
+        <a href="/login">Log In</a>
+      </div>
       @endauth
    </nav>
 

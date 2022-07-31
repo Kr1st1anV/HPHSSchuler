@@ -23,12 +23,12 @@
 
    <meta name="description" content="The HPHS Schuler App will keep you updated on the latest news thorugh posts, notifications, and reminders on the calendar.">
    <meta name="keywords" content="HPHS, Schuler, Schuler App, HPHS Schuler, HPHS Schuler App, Kristian Velazquez">
+   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
    @laravelPWA
 
 </head>
 <body>
-  @csrf
 
 <section class="header">
 
@@ -36,7 +36,7 @@
    <nav class="navbar">
       @admin
       @else
-      <a href="/">Ver en Español</a>
+      <a href="/es">Ver en Español</a>
       @endadmin
       <a href="/">Home</a>
       <a href="/about-us">About Us</a>
@@ -50,7 +50,7 @@
         @endadmin
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
         <form id="logout-form" action="/logout" method="post" class="hidden">
-            @csrf 
+          @csrf 
         </form>
       @else
         <a href="/register">Register</a>

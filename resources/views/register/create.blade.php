@@ -2,8 +2,8 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/register" method="POST">
+        @csrf
         <h3>Register</h3>
-         @csrf
         <x-form.input name="name"/>            
         <x-form.input name="username"/>
         <x-form.input name="email" type="email" autocomplete="username"/>

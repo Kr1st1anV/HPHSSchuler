@@ -34,7 +34,7 @@
 
    <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
    <nav class="navbar">
-      <a href="/">Ver en Espanol</a>
+      <a href="/">Ver en Español</a>
       <a href="/">Home</a>
       <a href="/about-us">About Us</a>
       <a href="/calendar">Calendar</a>
@@ -69,7 +69,7 @@
     <div class="box-container">
       <div class="box">
         <h3>Navigate To</h3>
-        <a href="/"><i class="fas fa-angle-right"></i> Ver en Espanol </a>
+        <a href="/"><i class="fas fa-angle-right"></i> Ver en Español </a>
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/about"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>

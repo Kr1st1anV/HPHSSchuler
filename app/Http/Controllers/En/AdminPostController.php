@@ -7,6 +7,7 @@ use App\Models\Post;
 use App\Models\User;
 use Illuminate\Validation\Rule;
 use App\Notifications\PostNotifications;
+use Illuminate\Support\Str;
 
 class AdminPostController extends Controller
 {
@@ -26,6 +27,7 @@ class AdminPostController extends Controller
     {
         Post::create(array_merge($this->validatePost(), [
             'user_id' => request()->user()->id,
+            'slug' => Str::slug(request()->post("title")),
             'thumbnail' => request()->file('thumbnail')->store('thumbnails')
         ]));
 

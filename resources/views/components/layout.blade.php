@@ -41,6 +41,7 @@
       <a href="/calendar">Calendar</a>
       <a href="/forms">Submit Forms</a>
       <a href="/posts">Posts</a>
+      <br>
       @auth
         @admin
           <a href="/admin/posts">Dashboard</a>

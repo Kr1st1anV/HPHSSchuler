@@ -540,7 +540,10 @@ section{
    margin-top: 2rem;
 }
 
-
+.dashboard table {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
 
 
 
@@ -601,14 +604,6 @@ section{
 .mail-link a{
    text-decoration: none;
    color: var(--main-color);
-}
-
-.dashboard{
-
-}
-
-.dashboard table {
-   margin-bottom: 9.5rem;
 }
 
 

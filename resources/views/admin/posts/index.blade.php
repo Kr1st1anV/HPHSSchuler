@@ -1,5 +1,4 @@
-<x-layout :title="'Dashboard'">
-
+<x-layout :title="'Dashboard'" :stylesheet="'tailwind.min'">
 <x-heading :file="'header-bg-1'">Dashboard</x-heading>
 <section class="dashboard">
         <div class="flex flex-col">
@@ -43,7 +42,5 @@
                 </div>
             </div>
         </div>
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </section>
-
 </x-layout>

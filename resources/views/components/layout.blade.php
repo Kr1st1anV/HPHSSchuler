@@ -64,7 +64,7 @@
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
         <a href="/about"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
-        @auth
+      @auth
         @admin
         <a href="/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Dashboard </a>
         <a href="/admin/posts/create"><i class="fas fa-angle-right"></i> New Posts </a>

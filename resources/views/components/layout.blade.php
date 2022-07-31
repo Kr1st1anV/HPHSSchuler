@@ -31,8 +31,9 @@
   @csrf
 
 <section class="header">
-
+  <div style="position: overflow;">
    <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
+   </div>
    <nav class="navbar">
       <a href="/">Home</a>
       <a href="/calendar">Calendar</a>

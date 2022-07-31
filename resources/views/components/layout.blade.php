@@ -40,7 +40,7 @@
       <a href="/calendar">Calendar</a>
       <a href="/forms">Submit Forms</a>
       <a href="/posts">Posts</a>
-      <br>
+      <br class="header-section-2">
       <div class="logins">
       @auth
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
@@ -52,8 +52,8 @@
           <a href="/admin/posts/create">New Post</a>
         @endadmin
       @else
-        <a href="/register">Register</a>
         <a href="/login">Log In</a>
+        <a href="/register">Register</a>
       </div>
       @endauth
    </nav>

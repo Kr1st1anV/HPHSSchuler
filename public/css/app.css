@@ -685,6 +685,9 @@ section{
       margin:2rem;
       text-align: center;
    }
+   .header .navbar .logins a{
+     float: none;
+   }
 
    .calendar iframe{
       width: 365px;

@@ -69,9 +69,11 @@
     <div class="box-container">
       <div class="box">
         <h3>Navigate To</h3>
+        <a href="/"><i class="fas fa-angle-right"></i> Ver en Espanol </a>
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
-        <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
         <a href="/about"><i class="fas fa-angle-right"></i> About Us </a>
+        <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
+        <a href="/forms"><i class="fas fa-angle-right"></i> Submit Form </a>
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth
         @admin

@@ -607,6 +607,10 @@ section{
    all: unset;
 }
 
+.dashboard table {
+   margin-bottom: 9.5rem;
+}
+
 
 
 

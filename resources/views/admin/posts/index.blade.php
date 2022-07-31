@@ -1,52 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Dashboard</title>
-   <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.svg">
-
-   <!-- swiper css link  -->
-
-   <!-- font awesome cdn link  -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-   <!-- custom css file link  -->
-   <link rel="stylesheet" href="/css/app.css">
-   
-
-</head>
-<body>
-
-<section class="header">
-
-   <a href="/" class="logo"><img src="/images/logo.svg"></a>
-   <nav class="navbar">
-      <a href="/">Home</a>
-      <a href="/calendar">Calendar</a>
-      <a href="/about">About Us</a>
-      <a href="/posts">Posts</a>
-      @auth
-        @admin
-        <a href="/admin/posts">Dashboard</a>
-        <a href="/admin/posts/create">New Post<a>
-        @endadmin
-        <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
-
-        <form id="logout-form" action="/logout" method="post" class="hidden">
-            @csrf 
-        </form>
-      @else
-      <a href="/register">Register</a>
-      <a href="/login">Log In</a>
-      @endauth
-      <!-- <a href="Chatroom/index.php" target="_blank">Chat room</a>' -->
-   </nav>
-
-   <div id="menu-btn" class="fas fa-bars"></div>
-
-</section>
+<x-layout :title="'Dashboard'">
 <section class="dashboard">
         <div class="flex flex-col">
             <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -54,6 +6,9 @@
                     <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
                         <table class="min-w-full divide-y divide-gray-2">
                             <tbody class="bg-white divide-y divide-gray-200">
+                                @if ($posts->count() < 1)
+                                    <p class="heading-title">No posts yet <br> please check back later.</p>
+                                @endif
                                 @foreach ($posts as $post)
                                <tr>
                                 <td class="px-9 py-4 whitespace-nowrap">
@@ -88,4 +43,4 @@
         </div>
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </section>
-</body>
+</x-layout>

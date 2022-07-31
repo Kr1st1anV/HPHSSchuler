@@ -34,7 +34,10 @@
 
    <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
    <nav class="navbar">
+      @admin
+      @else
       <a href="/">Ver en Español</a>
+      @endadmin
       <a href="/">Home</a>
       <a href="/about-us">About Us</a>
       <a href="/calendar">Calendar</a>

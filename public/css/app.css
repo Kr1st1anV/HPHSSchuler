@@ -109,7 +109,7 @@ section{
 
 .header .navbar a{
    font-size: 2rem;
-   margin-right: 3rem;
+   margin-left: 2rem;
    color:var(--black);
 }
 .header .navbar .logins a{

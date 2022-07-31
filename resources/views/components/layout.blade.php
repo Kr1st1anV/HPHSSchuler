@@ -38,9 +38,7 @@
       <a href="/">Home</a>
       <a href="/about-us">About Us</a>
       <a href="/calendar">Calendar</a>
-      <a href="/forms">Submit Forms</a>
-      <br class="header-section-2">
-      <div class="logins">
+      <!--<a href="/forms">Submit Forms</a>-->
       <a href="/posts">Posts</a>
       @auth
         @admin
@@ -54,7 +52,8 @@
       @else
         <a href="/register">Register</a>
         <a href="/login">Log In</a>
-      </div>
+        <div class="logins">
+        </div>
       @endauth
    </nav>
 
@@ -73,7 +72,6 @@
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/about"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
-        <a href="/forms"><i class="fas fa-angle-right"></i> Submit Form </a>
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth
         @admin

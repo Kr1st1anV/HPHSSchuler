@@ -95,15 +95,15 @@ section{
    z-index: 1000;
    background-color: var(--white);
    display: flex;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
    box-shadow: var(--box-shadow);
    align-items: center;
    justify-content: space-between;
 }
 
 .header .schuler-logo{
-   font-size: 2.5rem;
+   font-size: 2rem;
    color:var(--black);
 }
 

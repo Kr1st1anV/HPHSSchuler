@@ -1,11 +1,6 @@
 window.onload = function () {
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
-let header = document.querySelector('.header-section-2');
-
-if (document.documentElement.style.maxWidth < "768px") {
-   header.remove();
-}
 
 menu.onclick = () =>{
    menu.classList.toggle('fa-times');

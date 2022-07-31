@@ -689,6 +689,10 @@ section{
      float: none;
    }
 
+   .header .navbar br{
+      display: none;
+    }
+
    .calendar iframe{
       width: 365px;
       height: 430px;

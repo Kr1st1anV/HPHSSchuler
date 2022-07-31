@@ -3,7 +3,7 @@ let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 let header = document.querySelector('.header-section-2');
 
-if (document.documentElement.style.maxWidth < "450px") {
+if (document.documentElement.style.maxWidth < "768px") {
    header.remove();
 }
 

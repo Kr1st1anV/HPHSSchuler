@@ -17,7 +17,7 @@ class EsPostController extends Controller
 {
     public function index() {
         Artisan::call('storage:link');
-        return view('posts.index', [
+        return view('es.posts.index', [
             'posts' => Post::latest()->filter(
                 request(['search', 'author'])
                 )->paginate(3000)->withQueryString(),
@@ -25,7 +25,7 @@ class EsPostController extends Controller
         }
 
     public function show(Post $post) {
-        return view('posts.index', [
+        return view('es.posts.index', [
             'post' =>  $post
         ]);
     }

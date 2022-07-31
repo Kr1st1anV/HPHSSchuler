@@ -13,14 +13,14 @@ class EsAdminPostController extends Controller
 {
     public function index() 
     {
-        return view('admin.posts.index', [
+        return view('es.admin.posts.index', [
             'posts' => Post::paginate(50)
         ]);
     }
 
     public function create() 
     {
-        return view('admin.posts.create');
+        return view('es.admin.posts.create');
     }
 
     public function store() 
@@ -33,12 +33,12 @@ class EsAdminPostController extends Controller
 
         $users = User::all();
 
-        return redirect('/posts');
+        return redirect('/es/posts');
     }
     
     public function edit(Post $post) 
     {
-        return view('admin.posts.edit', ['post' => $post]);
+        return view('es.admin.posts.edit', ['post' => $post]);
     }
 
     public function update(Post $post)

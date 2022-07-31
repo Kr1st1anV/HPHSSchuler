@@ -9,11 +9,11 @@ class EsAboutController extends Controller
 {
     public function index()
     {
-        return view('main.about-us');
+        return view('es.main.about-us');
     }
 
     public function calendar()
     {
-        return view('main.calendar');
+        return view('es.main.calendar');
     }
 }

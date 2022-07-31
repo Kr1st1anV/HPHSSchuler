@@ -12,7 +12,7 @@ class EsRegisterController extends Controller
 {
     public function create() 
     {
-        return view('register.create');
+        return view('es.register.create');
     }
     public function store() 
     {

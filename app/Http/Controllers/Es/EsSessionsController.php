@@ -10,7 +10,7 @@ class EsSessionsController extends Controller
 {
     public function create()
     {
-        return view('sessions.create');
+        return view('es.sessions.create');
     }
 
     public function store()
@@ -28,13 +28,13 @@ class EsSessionsController extends Controller
 
         session()->regenerate();
 
-        return redirect('/')->with('success', 'Welcome Back!');
+        return redirect('/es')->with('success', 'Welcome Back!');
     }
 
     public function destroy()
     {
         auth()->logout();
 
-        return redirect('/')->with('success', 'Goodbye!');
+        return redirect('/es')->with('success', 'Goodbye!');
     }
 }

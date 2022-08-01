@@ -85,9 +85,9 @@ return [
             '1125x2436' => '/images/icons/splash-hphs-schuler.png',
             '1242x2208' => '/images/icons/splash-hphs-schuler.png',
             '1242x2688' => '/images/icons/splash-hphs-schuler.png',
-            '1536x2048' => '/images/icons/splash-1536x2048.png',
-            '1668x2224' => '/images/icons/splash-1668x2224.png',
-            '1668x2388' => '/images/icons/splash-1668x2388.png',
+            '1536x2048' => '/images/icons/splash-hphs-schuler.png',
+            '1668x2224' => '/images/icons/splash-hphs-schuler.png',
+            '1668x2388' => '/images/icons/splash-hphs-schuler.png',
             '2048x2732' => '/images/icons/splash-2048x2732.png',
         ],
         'shortcuts' => [

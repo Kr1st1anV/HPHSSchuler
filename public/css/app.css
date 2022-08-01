@@ -103,9 +103,9 @@ section{
 }
 
 .header .schuler-logo{
-   height: 9.5rem;
-   width: 18rem;
-   object-fit: fit;
+   height: 4rem;
+   width: 19rem;
+   background-size: contain;
    color:var(--black);
 }
 

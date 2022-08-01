@@ -28,7 +28,7 @@ class AdminPostController extends Controller
         Post::create(array_merge($this->validatePost(), [
             'user_id' => request()->user()->id,
             'slug' => Str::slug(request()->post("title")),
-            'thumbnail' => request()->file('thumbnail')->store('thumbnails')
+            'thumbnail' => request()->file('thumbnail')->store('thumbnails'),
         ]));
 
         $users = User::all();
@@ -68,7 +68,7 @@ class AdminPostController extends Controller
         return request()->validate([
             'title' => 'required',
             'thumbnail' => $post-> exists ? ['image'] : ['required','image'],
-            'slug' => ['required', Rule::unique('posts', 'slug')->ignore($post)],
+            'slug' => [Rule::unique('posts', 'slug')->ignore($post)],
             'excerpt' => 'required',
             'body' => 'required',
         ]);

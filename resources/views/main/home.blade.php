@@ -24,7 +24,7 @@
 
 <section class="home-packages">
 
- <h1 class="heading-title">Latests Posts</h1>
+ <h1 class="heading-title">Recent Posts</h1>
 
     <div class="box-container">
         @if ($posts->count())

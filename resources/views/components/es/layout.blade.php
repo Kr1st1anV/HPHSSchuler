@@ -94,14 +94,14 @@
         <a href="#"><i class="fas fa-angle-right"></i> Terms of User </a>
       </div>-->
       <div class="box">
-        <h3>Contact Info</h3>
+        <h3>Datos De Contacto</h3>
         <a href="tel:224-765-2000"><i class="fas fa-phone"></i> +1 (224) 765-2000 </a>
         <a href="tel:817-909-0215"><i class="fas fa-phone"></i> +1 (817) 909-0215 </a>
         <a href="mailto:cheryls@schulerprogram.org"><i class="fas fa-envelope"></i> cheryls@schulerprogram.org </a>
         <a href="https://www.google.com/maps/place/Highland+Park+High+School/@42.1926722,-87.8035443,17z/data=!3m2!4b1!5s0x880fc1b8e92f2a23:0xd72b4ad49aaa2cb7!4m5!3m4!1s0x880fc1b931863511:0x200dc0454edb946!8m2!3d42.1926682!4d-87.8013556"><i class="fas fa-map"></i> 433 Vine Ave, Highland Park, IL </a>
       </div>
       <div class="box">
-        <h3>Follow Us</h3>
+        <h3>Síganos</h3>
         <a href="https://www.facebook.com/HPHSschulerscholars/"><i class="fab fa-facebook-f"></i> Facebook </a>
         <a href="https://twitter.com/SchulerScholar"><i class="fab fa-twitter"></i> Twitter </a>
         <a href="https://www.instagram.com/hphsschulerprogram/"><i class="fab fa-instagram"></i> Instagram </a>
@@ -109,7 +109,7 @@
       </div>
     </div>
 
-    <div class="credit">Created by <span>Kristian Velazquez</span> | Schuler Scholar Micro Intern</div>
+    <div class="credit">Creado por <span>Kristian Velazquez</span> | Schuler Scholar Micro Intern</div>
 
 </section> 
 

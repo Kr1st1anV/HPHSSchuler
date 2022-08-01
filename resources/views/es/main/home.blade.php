@@ -1,6 +1,6 @@
 <x-es.layout :title="'Home'">
    
-@include ('main._header')
+@include ('es.main._header')
 
 <!-- home about section starts  -->
 

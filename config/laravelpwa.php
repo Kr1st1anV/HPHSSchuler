@@ -66,11 +66,11 @@ return [
                 'purpose' => 'any'
             ],
             '192x192' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '384x384' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '512x512' => [

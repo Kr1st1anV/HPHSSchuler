@@ -102,10 +102,10 @@ section{
    justify-content: space-between;
 }
 
-.header .schuler-logo{
-   height: 4rem;
-   width: 19rem;
-   background-size: contain;
+.header .schuler-logo img{
+    height: 10rem;
+    max-width: 20rem;
+    display: table;
    color:var(--black);
 }
 

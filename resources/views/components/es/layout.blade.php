@@ -32,29 +32,29 @@
 
 <section class="header">
 
-   <a href="/es" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
+   <a href="/es" class="schuler-logo"><img src="/images/highlandpark transparent.png" alt="Schuler Logo"></a>
    <nav class="navbar">
       @admin
       @else
       <a href="/">See in English</a>
       @endadmin
-      <a href="/es">Home</a>
-      <a href="/es/about-us">About Us</a>
-      <a href="/es/calendar">Calendar</a>
+      <a href="/es">Inicio</a>
+      <a href="/es/about-us">Sobre Nosotros</a>
+      <a href="/es/calendar">Calendario</a>
       <!--<a href="/forms">Submit Forms</a>-->
-      <a href="/es/posts">Posts</a>
+      <a href="/es/posts">Publicaciones</a>
       @auth
         @admin
           <a href="/es/admin/posts/create">Create Post</a>
           <a href="/es/admin/posts">Dashboard</a>
         @endadmin
-        <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Log Out</a>
+        <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Salir De Accuenta</a>
         <form id="logout-form" action="/es/logout" method="post" class="hidden">
           @csrf 
         </form>
       @else
-        <a href="/es/register">Register</a>
-        <a href="/es/login">Log In</a>
+        <a href="/es/register">Registro</a>
+        <a href="/es/login">Ingresar</a>
         <div class="logins">
         </div>
       @endauth
@@ -70,20 +70,20 @@
 <section class="footer">
     <div class="box-container">
       <div class="box">
-        <h3>Navigate To</h3>
+        <h3>Irte a</h3>
         <a href="/"><i class="fas fa-angle-right"></i> See in English </a>
-        <a href="/es"><i class="fas fa-angle-right"></i> Home </a>
-        <a href="/es/about-us"><i class="fas fa-angle-right"></i> About Us </a>
-        <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
-        <a href="/es/posts"><i class="fas fa-angle-right"></i> Posts </a>
+        <a href="/es"><i class="fas fa-angle-right"></i> Inicio </a>
+        <a href="/es/about-us"><i class="fas fa-angle-right"></i> Sobre Nosotros </a>
+        <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendario </a>
+        <a href="/es/posts"><i class="fas fa-angle-right"></i> Publicaciones </a>
       @auth
         @admin
-        <a href="/es/admin/posts/create"><i class="fas fa-angle-right"></i> Create Post </a>
-        <a href="/es/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Dashboard </a>
+        <a href="/es/admin/posts/create"><i class="fas fa-angle-right"></i> Crear Publicación </a>
+        <a href="/es/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Tablero </a>
         @endadmin
       @else
-      <a href="/es/register"><i class="fas fa-angle-right"></i> Register </a>
-      <a href="/es/login"><i class="fas fa-angle-right"></i> Log In </a>
+      <a href="/es/register"><i class="fas fa-angle-right"></i> Registro </a>
+      <a href="/es/login"><i class="fas fa-angle-right"></i> Ingresar </a>
       @endauth
       </div>
       <!--<div class="box">

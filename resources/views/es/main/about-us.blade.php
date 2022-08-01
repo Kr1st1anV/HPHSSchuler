@@ -1,6 +1,6 @@
-<x-es.layout :title="'About Us'">
+<x-es.layout :title="'Sobre Nosotros'">
    
-<x-heading :file="'header-bg-1'">About us</x-heading>
+<x-heading :file="'header-bg-1'">Sobre Nosotros</x-heading>
 
   <!-- About Section-->
 
@@ -9,21 +9,21 @@
     <img src="../images/014 Jack Schuler_0.jpeg">
   </div>
   <div class="content">
-    <h3>What is our purpose?</h3>
-    <p>The Schuler Scholar Program equips bright, motivated youth with the support they need to gain access to and succeed at highly selective colleges and beyond. Schuler Scholars are typically first generation college-bound, are students of color, or come from low-income families.</p>
-    <p>We are based in Lake Forest, Illinois with 14 partnership high schools in Chicago and the northern suburbs. Our program works with Scholars for four years in high school and continues to provide professional development and supportive services to Scholars during college and beyond.</p>
+    <h3>¿Cuál es nuestro propósito?</h3>
+    <p>El programa Schuler Scholar equipa a los jóvenes brillantes y motivados con el apoyo que necesitan para acceder y tener éxito en universidades altamente selectivas y más allá. Los becarios de Schuler son típicamente estudiantes universitarios de primera generación, son estudiantes de color o provienen de familias de bajos ingresos.</p>
+    <p>Estamos ubicados en Lake Forest, Illinois, con 14 escuelas secundarias asociadas en Chicago y los suburbios del norte. Nuestro programa trabaja con Scholars durante cuatro años en la escuela secundaria y continúa brindando desarrollo profesional y servicios de apoyo a Scholars durante la universidad y más allá.</p>
     <div class="icons-container">
       <div class="icons">
         <i class="fas fa-map"></i>
-        <span>Nationwide</span>
+        <span>Escala Nacional</span>
       </div>
       <div class="icons">
         <i class="fas fa-hand-holding-usd"></i>
-        <span>Scholarships</span>
+        <span>Becas</span>
       </div>
       <div class="icons">
         <i class="fas fa-headset"></i>
-        <span>Guidance</span>
+        <span>Guía</span>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@
   <!--Reviews Section-->
 
   <section class="reviews">
-    <h1 class="heading-title"> Our Staff </h1>
+    <h1 class="heading-title"> Nuestro Equipo </h1>
     <div class="swiper reviews-slider">
       <div class="swiper-wrapper">
         <div class="swiper-slide slide">

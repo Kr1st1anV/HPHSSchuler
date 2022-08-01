@@ -1,6 +1,6 @@
-<x-es.layout :title="'Posts'">
+<x-es.layout :title="'Publicaciones'">
    
-<x-heading :file="'header-bg-3'">Posts</x-heading>
+<x-heading :file="'header-bg-3'">Publicaciones</x-heading>
 <section class="packages">
     <div class="box-container">
         @if ($posts->count())

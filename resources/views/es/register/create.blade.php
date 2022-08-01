@@ -10,7 +10,7 @@
         <x-form.number name="phone_number" type="tel"/>
         <x-form.input name="password" type="password" autocomplete="new-password"/>
         <x-form.button>Submit</x-form.button>
-        <p>Already have an account? <a href="/login">Log In here</a></p>
+        <p>Ya tienes una accounta? <a href="/login">Ingresar</a></p>
     </form>
 </div>
 </x-es.layout>

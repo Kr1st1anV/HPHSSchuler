@@ -32,7 +32,7 @@
 
 <section class="header">
 
-   <a href="/" class="schuler-logo"><img src="/images/logo.svg" alt="Schuler Logo"></a>
+   <a href="/" class="schuler-logo"><img src="/images/highlandpark transparent.png" alt="Schuler Logo"></a>
    <nav class="navbar">
       @admin
       @else

@@ -1,8 +1,8 @@
-@props(['name'])
+@props(['name', 'label'])
 
 <x-form.field>
         <x-form.error name="{{$name}}"/>
-        <x-form.label name="Phone Number"/>
+        <x-es.form.label name="Phone Number" label="{{$label}}"/>
         <input class="box" 
         name="{{ $name }}"
         id="{{ $name }}"

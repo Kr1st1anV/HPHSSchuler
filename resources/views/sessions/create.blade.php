@@ -5,8 +5,8 @@
         @csrf
         <h3>Log In</h3>
         <x-form.input name="email" type="email" autocomplete="username"/>
-                <x-form.input name="password" type="password" autocomplete="new-password"/>
-                <x-form.button>Log In</x-form.button>
+        <x-form.input name="password" type="password" autocomplete="new-password"/>
+        <x-form.button>Log In</x-form.button>
         <p>Don't have an account? <a href="/register">Register</a></p>
     </form>
 </div>

@@ -71,7 +71,7 @@
     <div class="box-container">
       <div class="box">
         <h3>Navigate To</h3>
-        <a href="/"><i class="fas fa-angle-right"></i> Ver en Español </a>
+        <a href="/es"><i class="fas fa-angle-right"></i> Ver en Español </a>
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/about-us"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>

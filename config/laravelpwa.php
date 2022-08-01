@@ -74,7 +74,7 @@ return [
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
         ],

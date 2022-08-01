@@ -74,7 +74,7 @@ return [
                 'purpose' => 'any'
             ],
             '512x512' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/highlandpark transparent.png',
                 'purpose' => 'any'
             ],
         ],

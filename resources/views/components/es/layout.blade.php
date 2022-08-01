@@ -73,7 +73,7 @@
         <h3>Navigate To</h3>
         <a href="/"><i class="fas fa-angle-right"></i> See in English </a>
         <a href="/es"><i class="fas fa-angle-right"></i> Home </a>
-        <a href="/es/about"><i class="fas fa-angle-right"></i> About Us </a>
+        <a href="/es/about-us"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
         <a href="/es/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth

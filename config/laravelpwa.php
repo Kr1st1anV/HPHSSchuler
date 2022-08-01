@@ -46,23 +46,23 @@ return [
                 'purpose' => 'any'
             ],*/
             '72x72' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '96x96' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '128x128' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '144x144' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '152x152' => [
-                'path' => '/images/icons/schuler.png',
+                'path' => '/images/icons/hphs-schuler-512x512.png',
                 'purpose' => 'any'
             ],
             '192x192' => [

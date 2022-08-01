@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Validation\Rule;
 use App\Notifications\WelcomeNotifications;
+use Illuminate\Support\Facades\App;
 
 class EsRegisterController extends Controller
 {
@@ -16,6 +17,7 @@ class EsRegisterController extends Controller
     }
     public function store() 
     {
+        App::setLocale('es');
         $attributes = request()->validate([
             'name' => 'required|max:255',
             'username' => ['required', 'min:3' , 'max:255', Rule::unique('users', 'username')],

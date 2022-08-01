@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Es;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Validation\ValidationException;
 
 class EsSessionsController extends Controller
@@ -15,6 +16,7 @@ class EsSessionsController extends Controller
 
     public function store()
     {
+        App::setLocale('es');
         $attributes = request()->validate([
             'email' => 'required|email',
             'password' => 'required'
@@ -22,7 +24,7 @@ class EsSessionsController extends Controller
 
         if (! auth()->attempt($attributes)) {
             throw ValidationException::withMessages([
-                'email' => 'Your provided information could not be verified'
+                'email' => 'No se pudo verificar la información dada'
             ]);
         }
 

@@ -7,8 +7,8 @@ use App\Models\Post;
 use App\Models\User;
 use Illuminate\Validation\Rule;
 use App\Notifications\PostNotifications;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Str;
-
 class EsAdminPostController extends Controller
 {
     public function index() 
@@ -25,6 +25,7 @@ class EsAdminPostController extends Controller
 
     public function store() 
     {
+        App::setLocale('es');
         Post::create(array_merge($this->validatePost(), [
             'user_id' => request()->user()->id,
             'slug' => Str::slug(request()->post("title")),
@@ -43,6 +44,7 @@ class EsAdminPostController extends Controller
 
     public function update(Post $post)
     {
+        App::setLocale('es');
         $attributes = $this->validatePost($post);
 
         if ($attributes['thumbnail'] ?? false) {
@@ -63,6 +65,7 @@ class EsAdminPostController extends Controller
 
     protected function validatePost(?Post $post = null): array
     {
+        App::setLocale('es');
         $post ??= new Post();
 
         return request()->validate([

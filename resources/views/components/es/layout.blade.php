@@ -71,7 +71,10 @@
     <div class="box-container">
       <div class="box">
         <h3>Irte a</h3>
-        <a href="/"><i class="fas fa-angle-right"></i> See in English </a>
+        @admin
+        @else
+        <a href="/">See in English</a>
+        @endadmin
         <a href="/es"><i class="fas fa-angle-right"></i> Inicio </a>
         <a href="/es/about-us"><i class="fas fa-angle-right"></i> Sobre Nosotros </a>
         <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendario </a>

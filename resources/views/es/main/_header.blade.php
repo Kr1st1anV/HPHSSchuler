@@ -8,7 +8,7 @@
             <div class="content">
                <span>HPHS Schuler Scholars</span>
                <h3>Un Nuevo Viaje</h3>
-               <a href="/posts" class="btn">Explora</a>
+               <a href="/es/about-us" class="btn">Explora</a>
             </div>
          </div>
 
@@ -16,7 +16,7 @@
             <div class="content">
                <span>HPHS Schuler Scholars</span>
                <h3>Crea Nuevos Amigos</h3>
-               <a href="/posts" class="btn">Communicate</a>
+               <a href="/es/posts" class="btn">Communicate</a>
             </div>
          </div>
 
@@ -24,7 +24,7 @@
             <div class="content">
                <span>HPHS Schuler Scholars</span>
                <h3>Aprende, Sueña, Logra</h3>
-               <a href="/posts" class="btn">Sientete Lograde</a>
+               <a href="/es/posts" class="btn">Sientete Lograde</a>
             </div>
          </div>
          

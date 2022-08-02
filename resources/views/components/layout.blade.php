@@ -73,7 +73,7 @@
         <h3>Navigate To</h3>
         @admin
         @else
-        <a href="/">See in English</a>
+        <a href="/"><i class="fas fa-angle-right"></i> Ver en Español</a>
         @endadmin
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/about-us"><i class="fas fa-angle-right"></i> About Us </a>

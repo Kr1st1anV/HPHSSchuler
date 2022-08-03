@@ -7,6 +7,7 @@ use App\Http\Controllers\En\PostCommentsController;
 use App\Http\Controllers\En\PostController;
 use App\Http\Controllers\En\RegisterController;
 use App\Http\Controllers\En\SessionsController;
+use App\Http\Controllers\En\FormController;
 use App\Http\Controllers\Es\EsAboutController;
 use App\Http\Controllers\Es\EsAdminPostController;
 use App\Http\Controllers\Es\EsHomeController;
@@ -14,6 +15,7 @@ use App\Http\Controllers\Es\EsPostCommentsController;
 use App\Http\Controllers\Es\EsPostController;
 use App\Http\Controllers\Es\EsRegisterController;
 use App\Http\Controllers\Es\EsSessionsController;
+use App\Http\Controllers\Es\EsFormController;
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +35,10 @@ Route::group(['namespace' => 'En'], function(){
     Route::get('/calendar',[AboutController::class, 'calendar']);
 
     Route::get('/posts',[PostController::class, 'index']);
+
+    Route::post('/forms/submit', [FormController::class, 'store']);
+    Route::get('/forms/submit', [FormController::class, 'create']);
+    Route::delete('/forms/submit/{form}', [FormController::class, 'destroy']);
 
     Route::get('posts/{post:slug}',[PostController::class, 'show']);
     Route::post('posts/{post:slug}/comments', [PostCommentsController::class, 'store']);
@@ -62,6 +68,12 @@ Route::group(['namespace' => 'Es'], function(){
     Route::get('/es/about-us',[EsAboutController::class, 'index']);
 
     Route::get('/es/calendar',[EsAboutController::class, 'calendar']);
+
+    Route::get('/es/forms',[EsFormController::class, 'create']);
+
+    Route::post('/es/forms/submit', [EsFormController::class, 'store']);
+    Route::get('/es/forms/submit', [EsFormController::class, 'create']);
+    Route::delete('/es/forms/submit/{form}', [EsFormController::class, 'destroy']);
 
     Route::get('/es/posts',[EsPostController::class, 'index']);
 

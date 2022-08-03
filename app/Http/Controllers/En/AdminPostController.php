@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\En;
 
 use App\Http\Controllers\Controller;
+use App\Models\Form;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Validation\Rule;
@@ -14,7 +15,8 @@ class AdminPostController extends Controller
     public function index() 
     {
         return view('admin.posts.index', [
-            'posts' => Post::paginate(50)
+            'posts' => Post::paginate(100),
+            'forms' => Form::paginate(100)
         ]);
     }
 

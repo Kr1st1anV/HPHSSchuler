@@ -41,7 +41,9 @@
       <a href="/es">Inicio</a>
       <a href="/es/about-us">Sobre Nosotros</a>
       <a href="/es/calendar">Calendario</a>
-      <!--<a href="/forms">Submit Forms</a>-->
+      @auth
+      <a href="/es/forms">Enviar Formas</a>
+      @endauth
       <a href="/es/posts">Publicaciones</a>
       @auth
         @admin
@@ -78,6 +80,9 @@
         <a href="/es"><i class="fas fa-angle-right"></i> Inicio </a>
         <a href="/es/about-us"><i class="fas fa-angle-right"></i> Sobre Nosotros </a>
         <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendario </a>
+        @auth
+        <a href="/es/forms"><i class="fas fa-angle-right"></i> Enviar Formas </a>
+        @endauth
         <a href="/es/posts"><i class="fas fa-angle-right"></i> Publicaciones </a>
       @auth
         @admin

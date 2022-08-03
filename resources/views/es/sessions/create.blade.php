@@ -1,4 +1,4 @@
-<x-es.layout :stylesheet="'login'" :title="'Log In'">
+<x-es.layout :stylesheet="'login'" :title="'Ingresar'">
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 <div class="form-container">
     <form action="/es/login" method="POST">

@@ -1,4 +1,4 @@
-<x-es.layout :title="'Home'">
+<x-es.layout :title="'Inicio'">
    
 @include ('es.main._header')
 

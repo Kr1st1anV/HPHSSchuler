@@ -41,7 +41,9 @@
       <a href="/">Home</a>
       <a href="/about-us">About Us</a>
       <a href="/calendar">Calendar</a>
-      <!--<a href="/forms">Submit Forms</a>-->
+      @auth
+      <a href="/forms/submit">Submit Forms</a>
+      @endauth
       <a href="/posts">Posts</a>
       @auth
         @admin
@@ -78,6 +80,9 @@
         <a href="/"><i class="fas fa-angle-right"></i> Home </a>
         <a href="/about-us"><i class="fas fa-angle-right"></i> About Us </a>
         <a href="/calendar"><i class="fas fa-angle-right"></i> Calendar </a>
+        @auth
+        <a href="/calendar"><i class="fas fa-angle-right"></i> Submit Forms </a>
+        @endauth
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth
         @admin

@@ -1,2 +1,2 @@
-Sudo pass: pWvplOOmVUKZRTBHtYxr
-Database pass: 7o4GQuVAC3lnM8uCUi8K
+Sudo pass: 51IfbvbYmytmjOhxHkoA
+Database pass: PtPe6CZ3Jz5RUeQT8WFL

@@ -23,8 +23,8 @@ class FormController extends Controller
 
     public function download(Form $form) 
     {
-        $file = "storage/".$form->form;
-        $file_name = ddd($form->title."-form");
+        $file = ddd("storage/".$form->form);
+        $file_name = $form->title."-form";
         $headers = array(
             'Content-Type: application/pdf',
         );

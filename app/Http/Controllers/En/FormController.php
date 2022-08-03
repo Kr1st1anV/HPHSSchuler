@@ -29,7 +29,7 @@ class FormController extends Controller
             'Content-Type: application/pdf',
         );
 
-        return Response::download($file, $file_name, ['location' => '/admin/posts/index']);
+        return Response::download($file, $file_name, ['location' => '/admin/posts']);
     }
 
     public function show(Form $form) {

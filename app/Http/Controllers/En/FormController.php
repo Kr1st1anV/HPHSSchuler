@@ -23,7 +23,13 @@ class FormController extends Controller
 
     public function download(Form $form) 
     {
-        $file = ddd("http://142.93.56.130/public/storage". '/' . $form->form);
+        $file = 'storage/' . $form->form;
+        $file_name = $form->title."-form";
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+
+        return Response::download($file, $file_name, $headers);
     }
 
     public function show(Form $form) {

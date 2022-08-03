@@ -38,6 +38,7 @@ Route::group(['namespace' => 'En'], function(){
 
     Route::post('/forms/submit', [FormController::class, 'store']);
     Route::get('/forms/submit', [FormController::class, 'create']);
+    Route::get('/forms/submit/download/{form}',[FormController::class, 'download']);
     Route::delete('/forms/submit/{form}', [FormController::class, 'destroy']);
 
     Route::get('posts/{post:slug}',[PostController::class, 'show']);

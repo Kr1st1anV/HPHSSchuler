@@ -8,12 +8,14 @@ use App\Models\Post;
 use App\Models\User;
 use Illuminate\Validation\Rule;
 use App\Notifications\PostNotifications;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;
 
 class AdminPostController extends Controller
 {
     public function index() 
     {
+        Artisan::call('storage:link');
         return view('admin.posts.index', [
             'posts' => Post::paginate(100),
             'forms' => Form::paginate(100)

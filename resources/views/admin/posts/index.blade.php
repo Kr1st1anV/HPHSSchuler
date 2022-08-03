@@ -17,7 +17,7 @@
                                 <td class="px-9 py-4 whitespace-nowrap">
                                 <div class="flex items-center">
                                         <div class="text-3xl font-medium text-gray 900">
-                                            <a href="/forms/submit/{{$form->id}}">
+                                            <a href="/forms/submit/download/{{$form->id}}">
                                             {{$form->title}}
                                             </a>
                                         </div>

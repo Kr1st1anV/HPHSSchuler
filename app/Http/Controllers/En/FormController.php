@@ -5,6 +5,7 @@ namespace App\Http\Controllers\En;
 use App\Http\Controllers\Controller;
 use App\Models\Form;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
 
 class FormController extends Controller
 {
@@ -18,6 +19,17 @@ class FormController extends Controller
     public function create() 
     {
         return view('admin.forms.create');
+    }
+
+    public function download(Form $form) 
+    {
+        $file = "storage/".$form->form;
+        $file_name = 'Test';
+        $headers = array(
+            'Content-Type: application/pdf',
+        );
+
+        return Response::download($file, $file_name, $headers);
     }
 
     public function show(Form $form) {

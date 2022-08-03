@@ -24,12 +24,12 @@ class FormController extends Controller
     public function download(Form $form) 
     {
         $file = "storage/".$form->form;
-        $file_name = 'Test';
+        $file_name = $form->title."-form";
         $headers = array(
             'Content-Type: application/pdf',
         );
 
-        return Response::download($file, $file_name, $headers);
+        return Response::download($file, $file_name, ['location' => '/admin/posts/index']);
     }
 
     public function show(Form $form) {

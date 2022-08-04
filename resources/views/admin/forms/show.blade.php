@@ -21,12 +21,12 @@
                         </a>
                     </div>-->
                     <div class="flex items-center lg:justify-center text-3xl mt-4">
-                    <p class="text-gray-400 text-3xl">
-                        Published <time>{{ $form->created_at->diffForHumans()}}</time>
+                    <p class="text-gray-600 text-3xl">
+                        Published <time>{{ $form->created_at->diffForHumans()}} by:</time>
                     </p>
                         <div class="ml-3 text-left">
                             <h5 class="font-bold">
-                                <a href="/?author={{$form->author->username}}"> By: {{$form->author->name}}</a>
+                                {{$form->author->name}}
                             </h5>
                         </div>
                     </div>

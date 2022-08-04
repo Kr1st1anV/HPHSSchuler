@@ -1,9 +1,9 @@
 <x-layout :title="'Viewing Form'" :stylesheet="'tailwind.min'">
 <x-heading :file="'header-bg-2'">{{$form->title}}</x-heading>
-    <section class="px-6 py-8">
+    <section class="py-8">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
-            <article class="max-w-4xl mx-auto lg:grid lg:grid-cols-12 gap-x-10">
-            <div class="col-span-8">
+            <article class="mx-auto lg:grid lg:grid-cols-12 gap-x-10">
+            <div class="col-span-12">
                     <!--<div class="hidden lg:flex justify-between mb-6">
                         <a href="/admin/posts"
                             class="transition-colors duration-300 relative inline-flex items-center text-lg hover:text-blue-500">
@@ -20,23 +20,21 @@
                             Back to Dashboard
                         </a>
                     </div>-->
-                <div class="col-span- lg:text-center lg:pt-14 mb-10">
-                    <img src="{{ asset('storage/' . $form->form)}}" alt="" class="rounded-xl" width="800" height="1200">
-
-                    <p class="mt-4 block text-gray-400 text-xs">
+                    <div class="flex items-center lg:justify-center text-3xl mt-4">
+                    <p class="text-gray-400 text-3xl">
                         Published <time>{{ $form->created_at->diffForHumans()}}</time>
                     </p>
-
-                    <div class="flex items-center lg:justify-center text-sm mt-4">
                         <div class="ml-3 text-left">
                             <h5 class="font-bold">
-                                <a href="/?author={{$form->author->username}}">{{$form->author->name}}</a>
+                                <a href="/?author={{$form->author->username}}"> By: {{$form->author->name}}</a>
                             </h5>
                         </div>
                     </div>
+                    <div class="lg:pt-14 mb-10">
+                    <img src="{{ asset('storage/' . $form->form)}}" alt="" class="rounded-xl" width="800" height="1200">
                 </div>
-
-                    <div class="space-y-4 lg:text-lg leading-loose">{!! $form->description !!}
+                    <div class="space-y-4 lg:text-3xl leading-loose">
+                        <h3>Description: </h3><br>{!! $form->description !!}
                     </div>
                 </div>
             </article>

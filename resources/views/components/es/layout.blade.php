@@ -81,7 +81,7 @@
         <a href="/es/about-us"><i class="fas fa-angle-right"></i> Sobre Nosotros </a>
         <a href="/es/calendar"><i class="fas fa-angle-right"></i> Calendario </a>
         @auth
-        <a href="/es/forms"><i class="fas fa-angle-right"></i> Enviar Formas </a>
+        <a href="/es/forms/submit"><i class="fas fa-angle-right"></i> Enviar Formas </a>
         @endauth
         <a href="/es/posts"><i class="fas fa-angle-right"></i> Publicaciones </a>
       @auth

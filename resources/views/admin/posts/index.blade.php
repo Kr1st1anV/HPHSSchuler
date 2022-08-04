@@ -24,7 +24,7 @@
                                 </div>
                                 </td>
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-3xl font-medium">
-                                    <a href="/admin/posts/{{$form->id}}/edit" class="text-blue-500 hover:text-blue-600">View</a>
+                                    <a href="/forms/{{$form->id}}" class="text-blue-500 hover:text-blue-600">View</a>
                                 </td>
 
                                 <td class="px-6 py-4 whitespace-nowrap text-right text-3xl font-medium">

@@ -33,7 +33,7 @@ class FormController extends Controller
     }
 
     public function show(Form $form) {
-        return view('admin.forms.index', [
+        return view('admin.forms.show', [
             'form' =>  $form
         ]);
     }

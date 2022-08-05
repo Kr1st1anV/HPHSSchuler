@@ -88,13 +88,6 @@
           <img src="images/Isabelle Diaz 2.jpeg">
           <span><a href="mailto:isabellad@schulerprogram.org" class="mail-link">isabellad@schulerprogram.org</a><br>(847) 732-0903</span>
         </div>
-        <div class="swiper-slide slide">
-          <p>After receiving a Master's degree in Higher Education Administration and Student Affairs from Loyola University Chicago, Mariana created and led a transition program for incoming college freshmen which focused on privilege, identity, and academic strengths. In 2014 she joined the National TRIO programs where she gained extensive experience in college access and success of minority students and best practices for family engagement.<br><br>Mariana loves to travel. She likes to experience different cultures and immerse herself in such a way that it helps her reflect on her values and privileges in relation to the world. Mariana is a foodie at heart so she likes to explore Chicago's famous and not-so-famous restaurants. When not traveling, Mariana watches documentaries about food and travel.</p>
-          <h3>Mariana Ruano</h3>
-          <span>Staff</span>
-          <img src="images/Mariana Ruano.jpeg">
-          <span><a href="mailto:marianar@schulerprogram.org" class="mail-link">marianar@schulerprogram.org</a><br>(773) 870-1838</span>
-        </div>
       </div>
     </div>
   </section>

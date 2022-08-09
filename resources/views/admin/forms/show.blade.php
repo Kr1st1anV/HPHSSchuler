@@ -1,6 +1,6 @@
 <x-layout :title="'Viewing Form'" :stylesheet="'tailwind.min'">
 <x-heading :file="'header-bg-2'">Viewing Form</x-heading>
-    <section class="py-4">
+    <section class="py-4 pb-10">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
             <article class="mx-auto lg:grid lg:grid-cols-12 gap-x-10">
             <h1 class="flex col-span-12 lg:justify-center text-9xl">{{$form->title}}</h1>

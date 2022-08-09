@@ -1,8 +1,9 @@
 <x-layout :title="'Viewing Form'" :stylesheet="'tailwind.min'">
 <x-heading :file="'header-bg-2'">Viewing Form</x-heading>
-    <section class="py-8">
+    <section class="py-4">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
             <article class="mx-auto lg:grid lg:grid-cols-12 gap-x-10">
+            <h1 class="flex col-span-12 lg:justify-center text-9xl">{{$form->title}}</h1>
             <div class="col-span-12">
                     <!--<div class="hidden lg:flex justify-between mb-6">
                         <a href="/admin/posts"
@@ -20,7 +21,6 @@
                             Back to Dashboard
                         </a>
                     </div>-->
-                    <h2>{{$form->title}}</h2>
                     <div class="flex items-center lg:justify-center text-3xl mt-4">
                     <p class="text-gray-600 text-3xl">
                         Published <time>{{ $form->created_at->diffForHumans()}} by:</time>

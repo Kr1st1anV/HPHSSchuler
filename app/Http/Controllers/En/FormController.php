@@ -60,7 +60,7 @@ class FormController extends Controller
         $form ??= new Form();
 
         return request()->validate([
-            'title' => 'required',
+            'title' => 'required|max:255',
             'form' => $form-> exists ? ['image'] : ['required','image'],
             'description' => 'required',
         ]);

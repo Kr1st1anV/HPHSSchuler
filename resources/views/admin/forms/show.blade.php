@@ -1,5 +1,5 @@
 <x-layout :title="'Viewing Form'" :stylesheet="'tailwind.min'">
-<x-heading :file="'header-bg-2'">{{$form->title}}</x-heading>
+<x-heading :file="'header-bg-2'">Viewing Form</x-heading>
     <section class="py-8">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
             <article class="mx-auto lg:grid lg:grid-cols-12 gap-x-10">
@@ -21,6 +21,7 @@
                         </a>
                     </div>-->
                     <div class="flex items-center lg:justify-center text-3xl mt-4">
+                        <h3>{{$form->title}}</h3>
                     <p class="text-gray-600 text-3xl">
                         Published <time>{{ $form->created_at->diffForHumans()}} by:</time>
                     </p>

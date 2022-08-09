@@ -53,7 +53,7 @@ class AppServiceProvider extends ServiceProvider
                     return true;
                     break;
                 default: 
-                    return false;
+                    
             }
             return $user->username === 'kristianvelazquezz';
         });

@@ -20,8 +20,8 @@
                             Back to Dashboard
                         </a>
                     </div>-->
+                    <h2>{{$form->title}}</h2>
                     <div class="flex items-center lg:justify-center text-3xl mt-4">
-                        <h3>{{$form->title}}</h3>
                     <p class="text-gray-600 text-3xl">
                         Published <time>{{ $form->created_at->diffForHumans()}} by:</time>
                     </p>

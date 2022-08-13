@@ -10,7 +10,7 @@
             <p class="heading-title">Aún no hay publicaciones, vuelve más tarde.</p>
         @endif
     </div>
-    @if ($posts->count())
+    @if ($posts->count() > 6)
       <div class="load-more"> <a href="/es/posts" class="btn">Ver Más</a> </div>
     @endif
 </section>

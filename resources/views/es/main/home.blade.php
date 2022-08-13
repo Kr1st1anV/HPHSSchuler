@@ -31,7 +31,7 @@
             <x-es.posts-grid :posts="$posts" />
             {{$posts->links()}}
         @else 
-            <p class="heading-title">Aún no hay publicaciones, vuelve a consultar más tarde.</p>
+            <p class="heading-title">Aún no hay publicaciones, vuelve más tarde.</p>
         @endif
     </div>
     @if ($posts->count())

@@ -28,7 +28,7 @@
 
     <div class="box-container">
         @if ($posts->count())
-            <x-posts-grid :posts="$posts" />
+            <x-es.posts-grid :posts="$posts" />
             {{$posts->links()}}
         @else 
             <p class="heading-title">Aún no hay publicaciones, vuelve a consultar más tarde.</p>

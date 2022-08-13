@@ -20,7 +20,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('thumbnail')->nullable();
             $table->text('excerpt');
-            $table->text('body');
+            $table->text('english');
+            $table->text('spanish');
             $table->timestamps();
             $table->timestamp('published_at')->nullable();
         });

@@ -7,7 +7,8 @@
         <x-form.input name="title"/>
         <x-form.input name="thumbnail" type="file"/>
         <x-form.textarea name="excerpt"/>
-        <x-form.textarea name="body"/>
+        <x-form.textarea name="english"/>
+        <x-form.textarea name="spanish"/>
         <x-form.button>Publish</x-form.button>
     </form>
 </div>

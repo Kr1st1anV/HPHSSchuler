@@ -6,6 +6,6 @@
     </div>
     <div class="content">
         <h3>{{ $post->title }}</h3>
-        <p>{!! $post->body !!}</p>
+        <p>{!! $post->spanish !!}</p>
     </div>
 </div>

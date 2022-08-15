@@ -47,7 +47,7 @@
           <span><a href="mailto:cheryls@schulerprogram.org" class="mail-link">cheryls@schulerprogram.org</a><br>(817) 909-0215</span>
         </div>
         <div class="swiper-slide slide">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam at perspiciatis, aliquam dicta dolores a ullam sit veniam nam ab animi quas quae eaque quaerat eum officia quis eligendi consequuntur! Repellendus itaque est laboriosam rem optio odit ipsum velit qui, saepe libero delectus natus ratione eius, nihil quidem nisi sunt quo modi numquam eveniet, tempore unde quam sed harum? Maxime?</p>
+          <p>My name is Danielle Brockstein and I am one of the Scholar Coaches here at Highland Park High School. I am originally from Deerfield, IL and attended Penn State University where I studied Human Development and Family Studies and Child Maltreatment Advocacy. I spent some time after college living in Denver, CO assistant teaching 9th grade math through a program called City Year, and then returned home to Highland Park to begin working with the Schuler Scholar Program. <br><br> I'm super excited to be back again this year with our amazing Scholars!</p>
           <h3>Danielle Brockstein</h3>
           <span>Staff</span>
           <img src="../images/Danielle Brockstein.jpeg">

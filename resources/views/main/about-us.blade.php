@@ -54,7 +54,7 @@
           <span><a href="mailto:danielleb@schulerprogram.org" class="mail-link">danielleb@schulerprogram.org</a><br>(847) 323-9965</span>
         </div>
         <div class="swiper-slide slide">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas corporis repellendus, autem minima porro ab reiciendis corrupti, labore cupiditate eaque laudantium aliquid? Delectus voluptatibus, similique nesciunt aliquid, eaque voluptatem nobis optio illo aliquam cum dignissimos sunt, quo rerum repellendus voluptas eum atque recusandae reprehenderit provident! Maxime, placeat dolorem id cupiditate beatae asperiores et pariatur, voluptate accusantium iste a doloremque hic?</p>
+          <p>Dace Eaton is the STEM Coach for the Schuler Scholar Program at Highland Park High School. He went to college at the University of Chicago where he graduated in 2021 with a major in chemistry and a minor in film studies. Dace is always excited to help any scholar with their math or science questions, and wants STEM content to be as fun and interesting as possible. Dace also creates the weekly thought problem in the Schuler room and writes the daily trivia. <br><br> Some of his hobbies outside of Schuler include tap dancing and playing Magic: The Gathering, though not usually at the same time.</p>
           <h3>Dace Eaton</h3>
           <span>Staff</span>
           <img src="images/Dace Eaton.jpeg">

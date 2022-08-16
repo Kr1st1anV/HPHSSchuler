@@ -82,7 +82,7 @@
           <span><a href="mailto:noelle@schulerprogram.org" class="mail-link">noelle@schulerprogram.org</a><br>(224) 814-2357</span>
         </div>
         <div class="swiper-slide slide">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iusto reiciendis consequuntur dicta laboriosam quod ducimus nostrum totam cumque minus error, possimus molestiae aut amet distinctio recusandae doloremque accusantium doloribus expedita ea corporis nam tenetur dignissimos! Facilis commodi nisi quia ratione corrupti officia fuga maiores velit maxime modi. Cum nisi aliquid deserunt, quaerat expedita laudantium quisquam corporis perferendis consequatur repellendus!</p>
+          <p>Belle (she/her) is a College Counselor at Highland Park. She was a student at HPHS herself, and it has been so fun for her to be back working in the community in which she grew up. Belle graduated from Northern Illinois University where she studied Nonprofit and NGO Studies as well as Political Science and French. <br><br> Belle loves cats, and one of her favorite pre-covid activities was volunteering at her local animal shelter, facilitating adoptions and fundraising.</p>
           <h3>Isabella Diaz</h3>
           <span>Staff</span>
           <img src="images/Isabelle Diaz 2.jpeg">

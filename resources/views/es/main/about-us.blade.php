@@ -82,7 +82,7 @@
           <span><a href="mailto:noelle@schulerprogram.org" class="mail-link">noelle@schulerprogram.org</a><br>(224) 814-2357</span>
         </div>
         <div class="swiper-slide slide">
-          <p>Belle (ella/ella) es consejera universitaria en Highland Park. Ella misma era estudiante en HPHS y ha sido muy divertido para ella volver a trabajar en la comunidad en la que creció. Belle se graduó de la Universidad del Norte de Illinois, donde estudió estudios de ONG y organizaciones sin fines de lucro, así como ciencias políticas y francés. <br><br> A Belle le encantan los gatos, y una de sus actividades favoritas antes del covid-19 era ser voluntaria en el refugio de animales de su localidad, facilitando adopciones y recaudando fondos.</p>
+          <p>Belle (ella) es consejera universitaria en Highland Park. Ella misma era estudiante en HPHS y ha sido muy divertido para ella volver a trabajar en la comunidad en la que creció. Belle se graduó de la Universidad del Norte de Illinois, donde estudió estudios de ONG y organizaciones sin fines de lucro, así como ciencias políticas y francés. <br><br> A Belle le encantan los gatos, y una de sus actividades favoritas antes del covid-19 era ser voluntaria en el refugio de animales de su localidad, facilitando adopciones y recaudando fondos.</p>
           <h3>Isabella Diaz</h3>
           <span>Staff</span>
           <img src="../images/Isabelle Diaz 2.jpeg">

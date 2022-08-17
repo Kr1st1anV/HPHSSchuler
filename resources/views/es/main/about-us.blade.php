@@ -71,7 +71,7 @@
           <p>Maeve Creagan (Ella) ha sido Entrenadora Académica Asociada en Highland Park durante cuatro años. Asistió a Hobart y William Smith College donde obtuvo una licenciatura en Ciencias Políticas y otra en Historia Americana. Después de trabajar en el Club de Niños y Niñas de Ginebra mientras dirigía grupos de servicio, Maeve aceptó un puesto en el Programa Schuler Americorps. Después de sus dos años de servicio, Maeve se convirtió en miembro de pleno derecho del personal de Schuler. <br><br> Maeve tiene una perra llamada Willa, pasan mucho tiempo juntos afuera explorando todo lo que la naturaleza tiene para ofrecer.</p>
           <h3>Maeve Creagan</h3>
           <span>Staff</span>
-          <img src=".//images/Maeve Creagan.jpeg">
+          <img src="../images/Maeve Creagan.jpeg">
           <span><a href="mailto:maevec@schulerprogram.org" class="mail-link">maevec@schulerprogram.org</a><br>(607) 351-7538</span>
         </div>
         <div class="swiper-slide slide">

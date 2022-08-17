@@ -34,10 +34,7 @@
 
    <a href="/es" class="schuler-logo"><img src="/images/highlandpark transparent.png" alt="Schuler Logo"></a>
    <nav class="navbar">
-      @admin
-      @else
       <a href="/">See in English</a>
-      @endadmin
       <a href="/es">Inicio</a>
       <a href="/es/about-us">Sobre Nosotros</a>
       <a href="/es/calendar">Calendario</a>

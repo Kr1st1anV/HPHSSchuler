@@ -64,21 +64,21 @@
           <p>Rubén A. Barajas Ruíz (El) es el Entrenador Académico Asociado en Highland Park High School. Rubén se graduó de Davidson College en 2018 con una licenciatura en Ciencias Políticas y una especialización en Estudios Latinoamericanos. A Rubén le gustan los deportes, especialmente el fútbol. Realmente disfruta pasar tiempo con su familia y amigos, y comprar Jordan aquí y allá. La experiencia más memorable de Rubén fue estudiar en Perú y visitar tantas partes diferentes del país, incluida una de las 7 maravillas del mundo, Machu Picchu. Algunos datos divertidos sobre Rubén es que estudió ruso durante dos años en la escuela secundaria. Conoció a la jueza de la Corte Suprema Sonia Sotomayor. <br><br> Además, mientras estudiaba en el extranjero en Perú, vio a Malia Obama en la frontera Perú-Bolivia. </p>
           <h3>Rubén A. Barajas Ruíz</h3>
           <span>Staff</span>
-          <img src="images/Ruben Barajas_87.jpeg">
+          <img src="../images/Ruben Barajas_87.jpeg">
           <span><a href="mailto:rubenr@schulerprogram.org" class="mail-link">rubenr@schulerprogram.org</a><br>(773) 526-9080</span>
         </div>
         <div class="swiper-slide slide">
           <p>Maeve Creagan (Ella) ha sido Entrenadora Académica Asociada en Highland Park durante cuatro años. Asistió a Hobart y William Smith College donde obtuvo una licenciatura en Ciencias Políticas y otra en Historia Americana. Después de trabajar en el Club de Niños y Niñas de Ginebra mientras dirigía grupos de servicio, Maeve aceptó un puesto en el Programa Schuler Americorps. Después de sus dos años de servicio, Maeve se convirtió en miembro de pleno derecho del personal de Schuler. <br><br> Maeve tiene una perra llamada Willa, pasan mucho tiempo juntos afuera explorando todo lo que la naturaleza tiene para ofrecer.</p>
           <h3>Maeve Creagan</h3>
           <span>Staff</span>
-          <img src="images/Maeve Creagan.jpeg">
+          <img src=".//images/Maeve Creagan.jpeg">
           <span><a href="mailto:maevec@schulerprogram.org" class="mail-link">maevec@schulerprogram.org</a><br>(607) 351-7538</span>
         </div>
         <div class="swiper-slide slide">
           <p>Noelle Dela Cruz (Ella) es la Consejera Educativa del Programa Schuler en la Escuela Secundaria Highland Park. Actualmente está cursando su Maestría en Educación en Educación Superior Urbana. En su tiempo libre le encanta viajar e ir a conciertos. Está emocionada de continuar ayudando a los becarios a lograr el éxito académico.</p>
           <h3>Noelle Dela Cruz</h3>
           <span>Staff</span>
-          <img src="images/Noelle Dela Cruz.jpeg">
+          <img src="../images/Noelle Dela Cruz.jpeg">
           <span><a href="mailto:noelle@schulerprogram.org" class="mail-link">noelle@schulerprogram.org</a><br>(224) 814-2357</span>
         </div>
         <div class="swiper-slide slide">

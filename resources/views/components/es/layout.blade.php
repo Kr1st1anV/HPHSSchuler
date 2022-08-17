@@ -36,7 +36,7 @@
    <nav class="navbar">
       @admin
       @else
-      <a href="a">See in English</a>
+      <a href="/">See in English</a>
       @endadmin
       <a href="/es">Inicio</a>
       <a href="/es/about-us">Sobre Nosotros</a>

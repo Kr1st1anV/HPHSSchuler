@@ -75,7 +75,7 @@
         <h3>Irte a</h3>
         @admin
         @else
-        <a href="/es"><i class="fas fa-angle-right"></i> See in English</a>
+        <a href="/"><i class="fas fa-angle-right"></i> See in English</a>
         @endadmin
         <a href="/es"><i class="fas fa-angle-right"></i> Inicio </a>
         <a href="/es/about-us"><i class="fas fa-angle-right"></i> Sobre Nosotros </a>

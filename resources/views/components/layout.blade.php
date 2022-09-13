@@ -104,7 +104,7 @@
       <div class="box">
         <h3>Contact Info</h3>
         <a href="tel:224-765-2000"><i class="fas fa-phone"></i> +1 (224) 765-2000 </a>
-        <a href="tel:817-909-0215"><i class="fas fa-phone"></i> +1 (817) 909-0215 </a>
+        <a href="tel:224-765-2490"><i class="fas fa-phone"></i> +1 (224) 765-2490 </a>
         <a href="mailto:cheryls@schulerprogram.org"><i class="fas fa-envelope"></i> cheryls@schulerprogram.org </a>
         <a href="https://www.google.com/maps/place/Highland+Park+High+School/@42.1926722,-87.8035443,17z/data=!3m2!4b1!5s0x880fc1b8e92f2a23:0xd72b4ad49aaa2cb7!4m5!3m4!1s0x880fc1b931863511:0x200dc0454edb946!8m2!3d42.1926682!4d-87.8013556"><i class="fas fa-map"></i> 433 Vine Ave, Highland Park, IL </a>
       </div>

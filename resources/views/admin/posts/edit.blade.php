@@ -15,7 +15,9 @@
             <img src="{{ asset('storage/' . $post->thumbnail) }}" alt="" class="rounded-xl ml-6" width="125">
         </div>
         <x-form.textarea name="excerpt">{{ old('excerpt', $post->excerpt) }}</x-form.textarea>
-        <x-form.textarea name="body">{{ old('body', $post->body) }}</x-form.textarea>
+        <x-form.textarea name="english">{{ old('english', $post->english) }}</x-form.textarea>
+        <x-form.textarea name="spanish">{{ old('spanish', $post->spanish) }}</x-form.textarea>
+
         <x-form.button>Update</x-form.button>
     </form>
 </div>

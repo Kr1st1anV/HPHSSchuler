@@ -26,6 +26,7 @@
 
  <h1 class="heading-title">Recent Posts</h1>
  <div class="tagembed-container" style=" width:100%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="108242"></div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
+<div class="load-more"> <a href="/posts" class="btn">View More</a> </div>
 </section>
 
 </section>

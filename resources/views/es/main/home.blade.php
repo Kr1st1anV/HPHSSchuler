@@ -26,17 +26,6 @@
 
  <h1 class="heading-title">Publicaciones Recientes</h1>
  <div class="tagembed-container" style=" width:100%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="108242"></div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
-    <!-- <div class="box-container">
-        @if ($posts->count())
-            <x-es.posts-grid :posts="$posts" />
-            {{$posts->links()}}
-        @else 
-            <p class="heading-title">Aún no hay publicaciones, vuelve más tarde.</p>
-        @endif
-    </div>
-    @if ($posts->count())
-      <div class="load-more"> <a href="/es/posts" class="btn">Ver Más</a> </div>
-    @endif -->
 </section>
 
 </section>

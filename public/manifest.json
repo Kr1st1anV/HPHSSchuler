@@ -5,6 +5,7 @@
     "background_color": "#ffffff",
     "description": "Tutorial of Laravel Package",
     "display": "fullscreen",
+    "orientation": "portrait",
     "theme_color": "#ffffff",
     "icons": [
         {

@@ -87,7 +87,7 @@
       @auth
         @admin
         <!-- <a href="/es/admin/posts/create"><i class="fas fa-angle-right"></i> Crear Publicación </a>-->
-        <a href="/es/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Tablero </a> 
+        <a href="/es/admin/posts"><i class="fas fa-angle-right"></i> Tablero </a> 
         @endadmin
       @else
       <a href="/es/register"><i class="fas fa-angle-right"></i> Registro </a>

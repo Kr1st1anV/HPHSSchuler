@@ -86,7 +86,7 @@
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth
         @admin
-        <a href="/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Dashboard </a>
+        <a href="/admin/posts"><i class="fas fa-angle-right"></i> Dashboard </a>
         @endadmin
       @else
       <a href="/register"><i class="fas fa-angle-right"></i> Register </a>

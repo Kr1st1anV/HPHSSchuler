@@ -48,7 +48,7 @@
       @auth
         @admin
           <!-- <a href="/es/admin/posts/create">Create Post</a> -->
-          <a href="/es/admin/posts">Dashboard</a>
+          <a href="/es/admin/posts">Tablero</a>
         @endadmin
         <a href="#" x-data="{}" @click.prevent="document.querySelector('#logout-form').submit()">Salir De Accuenta</a>
         <form id="logout-form" action="/es/logout" method="post" class="hidden">

@@ -86,7 +86,6 @@
         <a href="/posts"><i class="fas fa-angle-right"></i> Posts </a>
       @auth
         @admin
-        <!-- <a href="/admin/posts/create"><i class="fas fa-angle-right"></i> Create Post </a>-->
         <a href="/admin/posts/dashboard"><i class="fas fa-angle-right"></i> Dashboard </a>
         @endadmin
       @else
